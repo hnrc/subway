@@ -15,11 +15,10 @@ module.exports = {
   // server_whitelist: ["irc.freenode.net"],
   server_whitelist: false,
 
-  /* not implemented yet */
   user_access: {
       users_enabled: true,            // show and allow logins
-      registration_enabled: true,     // allow new users to register themselves
-      bouncer_mode_allowed: true      // allow IRC connections to persist when users disconnect
+      registration_enabled: false,     // allow new users to register themselves
+      bouncer_mode_allowed: true      // (not implemented yet) allow IRC connections to persist when users disconnect
   },
 
   dev: {
